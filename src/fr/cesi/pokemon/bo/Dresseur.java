@@ -1,12 +1,24 @@
 package fr.cesi.pokemon.bo;
 
 public class Dresseur {
+    private int id;
     private String nom;
     private String prenom;
+
+    public Dresseur() {
+    }
 
     public Dresseur(String nom, String prenom) {
         this.nom = nom;
         this.prenom = prenom;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
     }
 
     public String getNom() {

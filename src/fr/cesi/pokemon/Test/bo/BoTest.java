@@ -1,5 +1,8 @@
-package fr.cesi.pokemon.bo;
+package fr.cesi.pokemon.Test.bo;
 
+import fr.cesi.pokemon.bo.Attaque;
+import fr.cesi.pokemon.bo.Dresseur;
+import fr.cesi.pokemon.bo.Pokemon;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
